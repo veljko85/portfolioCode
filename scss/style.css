@@ -1,0 +1,546 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #191919;
+  overflow: hidden; }
+  body .container {
+    background: url("../img/codeBackground-mob.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: #1f1f1f;
+    color: #48ff00;
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+    /*navigatin bar*/
+    /*landing page letters*/ }
+    body .container .home-page-contact {
+      width: 70%;
+      margin-left: 15%;
+      position: absolute;
+      bottom: 5%;
+      z-index: 10;
+      background-color: rgba(31, 31, 31, 0.8); }
+      body .container .home-page-contact img {
+        width: 10%;
+        margin: 0 7.5%;
+        float: left; }
+    body .container .heading {
+      height: 10%;
+      /*background-color: #181818;*/
+      opacity: 1; }
+      body .container .heading .heading-logo {
+        width: 12%;
+        float: left;
+        margin: 2.5% 0 2.5% 44%; }
+      body .container .heading .ham-but {
+        height: 15px;
+        width: 27px;
+        margin: 23.5px 15px 0 0;
+        float: right;
+        transition: 0.3s; }
+        body .container .heading .ham-but .ham-line {
+          width: 100%;
+          height: 1px;
+          background-color: #fff;
+          transition: 0.1s;
+          position: relative; }
+        body .container .heading .ham-but .first-line {
+          background-color: #288f00; }
+        body .container .heading .ham-but .second-line {
+          top: 7px;
+          background-color: #288f00; }
+        body .container .heading .ham-but .third-line {
+          top: 14px;
+          background-color: #288f00; }
+        body .container .heading .ham-but .change1 {
+          top: 8px;
+          transform: rotate(45deg); }
+        body .container .heading .ham-but .change2 {
+          transform: rotate(-45deg);
+          top: 7px; }
+    body .container .vm {
+      background: url("../img/logo-green.png");
+      background-size: cover;
+      position: absolute;
+      bottom: 18%;
+      animation: opacity 4s infinite;
+      opacity: 20%;
+      z-index: 1; }
+@keyframes opacity {
+  0% {
+    opacity: 2%; }
+  50% {
+    opacity: 20%; }
+  100% {
+    opacity: 2%; } }
+    body .container .nav-bar {
+      width: 0;
+      height: 7%;
+      background-color: #181818;
+      float: right;
+      overflow: hidden; }
+      body .container .nav-bar .nav-line {
+        width: 19%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 3%; }
+        body .container .nav-bar .nav-line img {
+          width: 30%;
+          opacity: 0;
+          /*display: none;*/ }
+        body .container .nav-bar .nav-line p {
+          display: none; }
+    body .container .content {
+      color: #48ff00;
+      width: 100%;
+      height: 100%;
+      z-index: 20;
+      /*lasnding page content*/
+      /*about page content*/
+      /*skills page content*/
+      /*my work page content*/
+      /*contact page content*/ }
+      body .container .content .home-page-content {
+        top: 40%;
+        left: 5%;
+        position: absolute;
+        z-index: 100;
+        color: #48ff00;
+        background-color: rgba(31, 31, 31, 0.8); }
+        body .container .content .home-page-content .name {
+          display: none;
+          font: 400 3rem 'Roboto Mono', monospace; }
+        body .container .content .home-page-content .name-2 {
+          font: 400 3rem 'Roboto Mono', monospace; }
+        body .container .content .home-page-content .last-name {
+          display: none;
+          font: 400 3rem 'Roboto Mono', monospace; }
+        body .container .content .home-page-content .last-name-2 {
+          font: 400 3rem 'Roboto Mono', monospace; }
+        body .container .content .home-page-content .web-developer {
+          display: none;
+          font: 400 1.8rem 'Roboto Mono', monospace; }
+        body .container .content .home-page-content .web-developer-2 {
+          font: 400 1.8rem 'Roboto Mono', monospace; }
+        body .container .content .home-page-content .flashing {
+          animation: flashing 1s infinite;
+          font: 400 3rem 'Roboto Mono', monospace; }
+@keyframes flashing {
+  0% {
+    opacity: 0%; }
+  50% {
+    opacity: 100%; }
+  100% {
+    opacity: 0%; } }
+      body .container .content .page-title {
+        font: 200 2rem 'Roboto Mono', monospace;
+        margin: 15% 0 0 5%;
+        color: #48ff00;
+        opacity: 0;
+        transition: 0.5s; }
+      body .container .content .about-page {
+        width: 100%;
+        background-color: rgba(31, 31, 31, 0.8); }
+        body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
+          width: 80%;
+          font: 200 0.9rem 'Roboto Mono', monospace;
+          /*text-shadow: -8px 5px 1px #000;*/ }
+        body .container .content .about-page .about-first-paragraph {
+          margin: 7% 0 0 -80%;
+          transition: 1s; }
+        body .container .content .about-page .about-second-paragraph {
+          margin: 7% 0 0 100%;
+          transition: 1s; }
+        body .container .content .about-page .about-third-paragraph {
+          margin: 7% 0 0 -80%;
+          transition: 1s; }
+        body .container .content .about-page .about-my-image {
+          position: fixed;
+          bottom: 0;
+          right: -80%;
+          transition: 1s;
+          background: url("../img/myimagemedium.png");
+          background-size: cover; }
+      body .container .content .skills-page {
+        width: 100%;
+        background-color: rgba(31, 31, 31, 0.8); }
+        body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
+          width: 80%;
+          font: 200 0.9rem 'Roboto Mono', monospace;
+          margin: 5% 0 0 -80%;
+          transition: 1s; }
+        body .container .content .skills-page .skills-icons-wrap {
+          width: 120%;
+          margin: 1% 0 0 105%;
+          border-radius: 100%;
+          animation: spin 20s infinite linear;
+          transition: 1s; }
+          body .container .content .skills-page .skills-icons-wrap .skill-icon {
+            width: 20%; }
+          body .container .content .skills-page .skills-icons-wrap .html-icon {
+            margin: 40% 0 0 0;
+            transform: rotate(-90deg);
+            float: left;
+            background: url("../icons/html5.png");
+            background-size: cover; }
+          body .container .content .skills-page .skills-icons-wrap .css-icon {
+            margin: 12% 0 0 -9%;
+            transform: rotate(-45deg);
+            float: left;
+            background: url("../icons/css3.png");
+            background-size: cover; }
+          body .container .content .skills-page .skills-icons-wrap .java-script-icon {
+            margin: 0 0 0 10%;
+            float: left;
+            background: url("../icons/javaScript.png");
+            background-size: cover; }
+          body .container .content .skills-page .skills-icons-wrap .sass-icon {
+            margin: 14% 0 0 10%;
+            transform: rotate(50deg);
+            float: left;
+            background: url("../icons/sass.png");
+            background-size: cover; }
+          body .container .content .skills-page .skills-icons-wrap .jquery-icon {
+            margin: 6% 0 0 0;
+            transform: rotate(90deg);
+            float: right;
+            background: url("../icons/jquery.png");
+            background-size: cover; }
+          body .container .content .skills-page .skills-icons-wrap .ps-icon {
+            margin: 33% -7% 0 0;
+            transform: rotate(133deg);
+            float: right;
+            background: url("../icons/ps.png");
+            background-size: cover; }
+          body .container .content .skills-page .skills-icons-wrap .ai-icon {
+            margin: 45% 8% 0 0;
+            transform: rotate(-180deg);
+            float: right;
+            background: url("../icons/ai.png");
+            background-size: cover; }
+          body .container .content .skills-page .skills-icons-wrap .xd-icon {
+            margin: 7% 8% 0 0;
+            transform: rotate(-133deg);
+            float: right;
+            background: url("../icons/xd.png");
+            background-size: cover; }
+@keyframes spin {
+  100% {
+    transform: rotate(360deg); } }
+      body .container .content .my-work-page {
+        width: 100%;
+        z-index: 10;
+        position: relative;
+        background-color: rgba(31, 31, 31, 0.8); }
+        body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
+          width: 90%;
+          transition: 1s; }
+          body .container .content .my-work-page .blomm img, body .container .content .my-work-page .nice img {
+            width: 100%; }
+        body .container .content .my-work-page .blomm {
+          margin: 10% 0 0 -100%; }
+        body .container .content .my-work-page .nice {
+          margin: 5% 0 0 105%; }
+      body .container .content .contact-page {
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        position: relative;
+        background-color: rgba(31, 31, 31, 0.8); }
+        body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
+          width: 80%;
+          font: 200 0.9rem 'Roboto Mono', monospace;
+          margin: 5% 0 0 -80%;
+          transition: 1s; }
+        body .container .content .contact-page .email, body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
+          width: 90%;
+          margin: 15% 0 0 105%;
+          height: 7%;
+          transition: 1s; }
+          body .container .content .contact-page .email img, body .container .content .contact-page .tel img, body .container .content .contact-page .link img, body .container .content .contact-page .insta img {
+            width: 10%;
+            float: left;
+            margin: 0 0 0 10%; }
+          body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
+            font: 200 0.8rem 'Roboto Mono', monospace;
+            float: left;
+            color: #48ff00;
+            margin: 3% 0 0 10%; }
+        body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
+          margin-top: 3%; }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body .container {
+    /*navigatin bar*/
+    /*landing page letters*/ }
+    body .container .home-page-contact {
+      width: 50%;
+      margin-left: 25%; }
+    body .container .heading .heading-logo {
+      width: 9%;
+      margin: 2.5% 0 2.5% 45.5%; }
+    body .container .heading .ham-but {
+      margin: 6% 25px 0 0; }
+    body .container .vm {
+      margin-left: 10%; }
+    body .container .nav-bar {
+      margin-top: -0.7%; }
+      body .container .nav-bar .nav-line {
+        width: 19.5%;
+        margin-top: 2%; }
+        body .container .nav-bar .nav-line img {
+          width: 25%; }
+    body .container .content {
+      /*lasnding page content*/
+      /*about page content*/
+      /*skills page content*/
+      /*my work page content*/
+      /*contact page content*/ }
+      body .container .content .home-page-content .name {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .name-2 {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .last-name {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .last-name-2 {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .web-developer {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .web-developer-2 {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .flashing {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .page-title {
+        font: 200 3rem 'Open Sans', sans-serif;
+        margin: 12% 0 0 5%; }
+      body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
+        font: 200 1.5rem 'Open Sans', sans-serif; }
+      body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
+        font: 200 1.5rem 'Open Sans', sans-serif; }
+      body .container .content .skills-page .skills-icons-wrap {
+        width: 100%; }
+      body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
+        width: 60%; }
+        body .container .content .my-work-page .blomm img, body .container .content .my-work-page .nice img {
+          width: 100%; }
+      body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
+        font: 200 1.5rem 'Open Sans', sans-serif; }
+      body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
+        font: 200 1.2rem 'Open Sans', sans-serif; } }
+@media screen and (min-width: 1025px) {
+  body .container {
+    background: url("../img/codeBackground.png");
+    background-size: cover;
+    background-color: #1f1f1f;
+    /*navigatin bar*/
+    /*landing page letters*/ }
+    body .container .home-page-contact {
+      width: 15%;
+      margin-left: 7%;
+      bottom: 5%; }
+    body .container .heading {
+      height: 10%;
+      width: 4%; }
+      body .container .heading .heading-logo {
+        width: 90%;
+        float: none;
+        margin: 15% 0 0 5%; }
+      body .container .heading .ham-but {
+        display: none; }
+    body .container .vm {
+      background: url("../img/logo-green.png");
+      background-size: cover;
+      bottom: 10%;
+      right: 50%; }
+    body .container .nav-bar {
+      width: 4%;
+      height: 100%;
+      float: left;
+      padding-top: 12%; }
+      body .container .nav-bar .nav-line {
+        width: 100%;
+        height: 3%;
+        display: block;
+        margin-top: 30%;
+        cursor: pointer; }
+        body .container .nav-bar .nav-line img {
+          width: 35%;
+          opacity: 1; }
+        body .container .nav-bar .nav-line p {
+          width: 100%;
+          height: 3%;
+          display: block;
+          margin-top: 30%;
+          cursor: pointer;
+          font: 400 1rem 'Do Hyeon', sans-serif;
+          color: #48ff00;
+          display: none; }
+      body .container .nav-bar .nav-line:hover img {
+        display: none; }
+      body .container .nav-bar .nav-line:hover p {
+        display: block; }
+    body .container .content {
+      /*lasnding page content*/
+      /*about page content*/
+      /*skills page content*/
+      /*my work page content*/
+      /*contact page content*/ }
+      body .container .content .home-page-content {
+        top: 30%;
+        left: 10%;
+        cursor: pointer; }
+        body .container .content .home-page-content .name {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .name-2 {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .last-name {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .last-name-2 {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .web-developer {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .web-developer-2 {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .flashing {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .page-title {
+        font: 600 4rem 'Open Sans', sans-serif;
+        margin: 0 0 0 3%; }
+      body .container .content .about-page {
+        margin: 10% 0 0 7%;
+        padding: 2% 0;
+        border-left: 1px solid #ED2052; }
+        body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
+          width: 40%;
+          font: 200 1.2rem 'Open Sans', sans-serif; }
+        body .container .content .about-page .about-first-paragraph {
+          margin: 3% 0 0 105%; }
+        body .container .content .about-page .about-second-paragraph {
+          margin: 1.5% 0 0 105%; }
+        body .container .content .about-page .about-third-paragraph {
+          margin: 1.5% 0 0 105%; }
+        body .container .content .about-page .about-my-image {
+          right: -50%;
+          background: url("../img/myimagebig.png");
+          background-size: cover;
+          z-index: 20; }
+      body .container .content .skills-page {
+        margin: 10% 0 0 7%;
+        padding: 2% 0;
+        border-left: 1px solid #ED2052; }
+        body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
+          width: 40%;
+          font: 200 1.2rem 'Open Sans', sans-serif;
+          margin: 3% 0 0 105%; }
+        body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
+          margin: 1.5% 0 0 105%; }
+        body .container .content .skills-page .skills-icons-wrap {
+          width: 30%;
+          float: right;
+          margin: -25% 0 0 105%;
+          position: fixed; }
+        body .container .content .skills-page .skills-icons-wrap:hover .html-icon {
+          background: url("../icons/html5.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.1s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .css-icon {
+          background: url("../icons/css3.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.2s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .java-script-icon {
+          background: url("../icons/javaScript.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.3s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .sass-icon {
+          background: url("../icons/sass.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.4s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .jquery-icon {
+          background: url("../icons/jquery.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.5s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .ps-icon {
+          background: url("../icons/ps.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.6s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .ai-icon {
+          background: url("../icons/ai.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.7s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .xd-icon {
+          background: url("../icons/xd.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.8s; }
+        body .container .content .skills-page .html-icon {
+          background: url("../icons/html5-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .css-icon {
+          background: url("../icons/css3-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .java-script-icon {
+          background: url("../icons/javaScript-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .sass-icon {
+          background: url("../icons/sass-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .jquery-icon {
+          background: url("../icons/jquery-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .ps-icon {
+          background: url("../icons/ps-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .ai-icon {
+          background: url("../icons/ai-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .xd-icon {
+          background: url("../icons/xd-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+      body .container .content .my-work-page {
+        margin: 5% 0 0 7%;
+        padding: 2% 0;
+        border-left: 1px solid #ED2052; }
+        body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
+          width: 30%;
+          display: inline-block;
+          opacity: 0; }
+        body .container .content .my-work-page .blomm {
+          margin: 3% 0 0 12.5%; }
+        body .container .content .my-work-page .nice {
+          margin: 3% 0 0 5%; }
+      body .container .content .contact-page {
+        margin: 5% 0 0 7%;
+        padding: 2% 0; }
+        body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
+          width: 40%;
+          font: 200 1.2rem 'Open Sans', sans-serif;
+          margin: 3% 0 0 105%; }
+        body .container .content .contact-page .email, body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
+          width: 30%;
+          margin: -15% 0 0 100%;
+          height: 10%; }
+          body .container .content .contact-page .email img, body .container .content .contact-page .tel img, body .container .content .contact-page .link img, body .container .content .contact-page .insta img {
+            width: 15%;
+            float: left;
+            margin: 0 0 0 0; }
+          body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
+            font: 200 1rem 'Open Sans', sans-serif;
+            float: left;
+            color: #fff;
+            margin: 6% 0 0 10%; }
+        body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
+          margin-top: 2%; } }
+
+/*# sourceMappingURL=style.css.map */

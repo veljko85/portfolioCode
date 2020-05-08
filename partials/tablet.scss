@@ -1,0 +1,110 @@
+@media screen and (min-width: 768px)  and (max-width: 1024px){
+	body  {
+		.container {
+			.home-page-contact {
+				width: 50%;
+				margin-left: 25%;
+			}
+			.heading {
+				.heading-logo {
+					width: 9%;
+					margin: 2.5% 0 2.5% 45.5%;
+				}
+				.ham-but {
+					margin: 6% 25px 0 0;
+				}
+			}
+			.vm {
+				margin-left: 10%;
+			}
+
+	/*navigatin bar*/
+			.nav-bar {
+				margin-top: -0.7%;
+				.nav-line {
+					width: 19.5%;
+					margin-top: 2%;
+					img {
+						width: 25%;
+					}
+				}
+			}
+
+	/*landing page letters*/
+
+			.content {
+
+	/*lasnding page content*/
+				.home-page-content {
+					.name {
+						font: 400 5rem 'Do Hyeon', sans-serif;
+					}
+					.name-2 {
+						font: 400 5rem 'Do Hyeon', sans-serif;
+					}
+
+					.last-name {
+						font: 400 5rem 'Do Hyeon', sans-serif;
+					}
+					.last-name-2 {
+						font: 400 5rem 'Do Hyeon', sans-serif;
+					}
+
+					.web-developer {
+						font: 400 5rem 'Do Hyeon', sans-serif;
+					}
+					.web-developer-2 {
+						font: 400 5rem 'Do Hyeon', sans-serif;
+					}
+					.flashing {
+						font: 400 5rem 'Do Hyeon', sans-serif;
+					}
+				}
+
+				.page-title {
+					font: 200 3rem 'Open Sans', sans-serif;
+					margin: 12% 0 0 5%;
+				}
+
+				/*about page content*/
+				.about-page {
+					.about-first-paragraph, .about-second-paragraph, .about-third-paragraph {
+						font: 200 1.5rem 'Open Sans', sans-serif;
+					}
+				}
+				/*skills page content*/
+				.skills-page {
+					.skills-first-paragraph, .skills-second-paragraph, .skills-third-paragraph {
+						font: 200 1.5rem 'Open Sans', sans-serif;
+					}
+					.skills-icons-wrap {
+						width: 100%;
+					}
+				}
+				/*my work page content*/
+				.my-work-page {
+					.blomm, .nice, {
+						width: 60%;
+						img {
+							width: 100%;
+							}
+					}
+				}
+				/*contact page content*/
+				.contact-page {
+					.contact-first-paragraph, .contact-second-paragraph {
+						font: 200 1.5rem 'Open Sans', sans-serif;
+					}
+					.email, .tel, .link, .insta {
+						p {
+							font: 200 1.2rem 'Open Sans', sans-serif;
+
+						}
+					}
+				}
+			}
+			
+
+		}
+	}
+}

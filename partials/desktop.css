@@ -1,0 +1,212 @@
+@media screen and (min-width: 1025px) {
+  body .container {
+    background: url("../img/codeBackground.png");
+    background-size: cover;
+    background-color: #1f1f1f;
+    /*navigatin bar*/
+    /*landing page letters*/ }
+    body .container .home-page-contact {
+      width: 15%;
+      margin-left: 7%;
+      bottom: 5%; }
+    body .container .heading {
+      height: 10%;
+      width: 4%; }
+      body .container .heading .heading-logo {
+        width: 90%;
+        float: none;
+        margin: 15% 0 0 5%; }
+      body .container .heading .ham-but {
+        display: none; }
+    body .container .vm {
+      background: url("../img/logo-green.png");
+      background-size: cover;
+      bottom: 10%;
+      right: 50%; }
+    body .container .nav-bar {
+      width: 4%;
+      height: 100%;
+      float: left;
+      padding-top: 12%; }
+      body .container .nav-bar .nav-line {
+        width: 100%;
+        height: 3%;
+        display: block;
+        margin-top: 30%;
+        cursor: pointer; }
+        body .container .nav-bar .nav-line img {
+          width: 35%;
+          opacity: 1; }
+        body .container .nav-bar .nav-line p {
+          width: 100%;
+          height: 3%;
+          display: block;
+          margin-top: 30%;
+          cursor: pointer;
+          font: 400 1rem 'Do Hyeon', sans-serif;
+          color: #48ff00;
+          display: none; }
+      body .container .nav-bar .nav-line:hover img {
+        display: none; }
+      body .container .nav-bar .nav-line:hover p {
+        display: block; }
+    body .container .content {
+      /*lasnding page content*/
+      /*about page content*/
+      /*skills page content*/
+      /*my work page content*/
+      /*contact page content*/ }
+      body .container .content .home-page-content {
+        top: 30%;
+        left: 10%;
+        cursor: pointer; }
+        body .container .content .home-page-content .name {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .name-2 {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .last-name {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .last-name-2 {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .web-developer {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .web-developer-2 {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+        body .container .content .home-page-content .flashing {
+          font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .page-title {
+        font: 600 4rem 'Open Sans', sans-serif;
+        margin: 0 0 0 3%; }
+      body .container .content .about-page {
+        margin: 10% 0 0 7%;
+        padding: 2% 0;
+        border-left: 1px solid #ED2052; }
+        body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
+          width: 40%;
+          font: 200 1.2rem 'Open Sans', sans-serif; }
+        body .container .content .about-page .about-first-paragraph {
+          margin: 3% 0 0 105%; }
+        body .container .content .about-page .about-second-paragraph {
+          margin: 1.5% 0 0 105%; }
+        body .container .content .about-page .about-third-paragraph {
+          margin: 1.5% 0 0 105%; }
+        body .container .content .about-page .about-my-image {
+          right: -50%;
+          background: url("../img/myimagebig.png");
+          background-size: cover;
+          z-index: 20; }
+      body .container .content .skills-page {
+        margin: 10% 0 0 7%;
+        padding: 2% 0;
+        border-left: 1px solid #ED2052; }
+        body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
+          width: 40%;
+          font: 200 1.2rem 'Open Sans', sans-serif;
+          margin: 3% 0 0 105%; }
+        body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
+          margin: 1.5% 0 0 105%; }
+        body .container .content .skills-page .skills-icons-wrap {
+          width: 30%;
+          float: right;
+          margin: -25% 0 0 105%;
+          position: fixed; }
+        body .container .content .skills-page .skills-icons-wrap:hover .html-icon {
+          background: url("../icons/html5.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.1s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .css-icon {
+          background: url("../icons/css3.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.2s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .java-script-icon {
+          background: url("../icons/javaScript.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.3s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .sass-icon {
+          background: url("../icons/sass.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.4s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .jquery-icon {
+          background: url("../icons/jquery.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.5s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .ps-icon {
+          background: url("../icons/ps.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.6s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .ai-icon {
+          background: url("../icons/ai.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.7s; }
+        body .container .content .skills-page .skills-icons-wrap:hover .xd-icon {
+          background: url("../icons/xd.png") !important;
+          background-size: cover !important;
+          transition-delay: 0.8s; }
+        body .container .content .skills-page .html-icon {
+          background: url("../icons/html5-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .css-icon {
+          background: url("../icons/css3-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .java-script-icon {
+          background: url("../icons/javaScript-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .sass-icon {
+          background: url("../icons/sass-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .jquery-icon {
+          background: url("../icons/jquery-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .ps-icon {
+          background: url("../icons/ps-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .ai-icon {
+          background: url("../icons/ai-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+        body .container .content .skills-page .xd-icon {
+          background: url("../icons/xd-gray.png") !important;
+          background-size: cover !important;
+          transition: 0.5s; }
+      body .container .content .my-work-page {
+        margin: 5% 0 0 7%;
+        padding: 2% 0;
+        border-left: 1px solid #ED2052; }
+        body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
+          width: 30%;
+          display: inline-block;
+          opacity: 0; }
+        body .container .content .my-work-page .blomm {
+          margin: 3% 0 0 12.5%; }
+        body .container .content .my-work-page .nice {
+          margin: 3% 0 0 5%; }
+      body .container .content .contact-page {
+        margin: 5% 0 0 7%;
+        padding: 2% 0; }
+        body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
+          width: 40%;
+          font: 200 1.2rem 'Open Sans', sans-serif;
+          margin: 3% 0 0 105%; }
+        body .container .content .contact-page .email, body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
+          width: 30%;
+          margin: -15% 0 0 100%;
+          height: 10%; }
+          body .container .content .contact-page .email img, body .container .content .contact-page .tel img, body .container .content .contact-page .link img, body .container .content .contact-page .insta img {
+            width: 15%;
+            float: left;
+            margin: 0 0 0 0; }
+          body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
+            font: 200 1rem 'Open Sans', sans-serif;
+            float: left;
+            color: #fff;
+            margin: 6% 0 0 10%; }
+        body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
+          margin-top: 2%; } }
+
+/*# sourceMappingURL=desktop.css.map */

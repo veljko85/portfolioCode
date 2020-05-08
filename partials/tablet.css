@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body .container {
+    /*navigatin bar*/
+    /*landing page letters*/ }
+    body .container .home-page-contact {
+      width: 50%;
+      margin-left: 25%; }
+    body .container .heading .heading-logo {
+      width: 9%;
+      margin: 2.5% 0 2.5% 45.5%; }
+    body .container .heading .ham-but {
+      margin: 6% 25px 0 0; }
+    body .container .vm {
+      margin-left: 10%; }
+    body .container .nav-bar {
+      margin-top: -0.7%; }
+      body .container .nav-bar .nav-line {
+        width: 19.5%;
+        margin-top: 2%; }
+        body .container .nav-bar .nav-line img {
+          width: 25%; }
+    body .container .content {
+      /*lasnding page content*/
+      /*about page content*/
+      /*skills page content*/
+      /*my work page content*/
+      /*contact page content*/ }
+      body .container .content .home-page-content .name {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .name-2 {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .last-name {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .last-name-2 {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .web-developer {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .web-developer-2 {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .home-page-content .flashing {
+        font: 400 5rem 'Do Hyeon', sans-serif; }
+      body .container .content .page-title {
+        font: 200 3rem 'Open Sans', sans-serif;
+        margin: 12% 0 0 5%; }
+      body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
+        font: 200 1.5rem 'Open Sans', sans-serif; }
+      body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
+        font: 200 1.5rem 'Open Sans', sans-serif; }
+      body .container .content .skills-page .skills-icons-wrap {
+        width: 100%; }
+      body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
+        width: 60%; }
+        body .container .content .my-work-page .blomm img, body .container .content .my-work-page .nice img {
+          width: 100%; }
+      body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
+        font: 200 1.5rem 'Open Sans', sans-serif; }
+      body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
+        font: 200 1.2rem 'Open Sans', sans-serif; } }
+
+/*# sourceMappingURL=tablet.css.map */
