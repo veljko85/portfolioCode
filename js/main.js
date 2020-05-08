@@ -337,6 +337,5 @@ for (var i = 0; i < navLine.length; i++) {
 
 
 
-console.log(2+3);
 
 
