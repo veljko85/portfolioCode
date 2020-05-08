@@ -51,15 +51,15 @@ body  {
 					position: relative;
 				}
 				.first-line {
-					background-color: #288f00;
+					background-color: #48ff00;
 				}
 				.second-line {
 					top: 7px;
-					background-color: #288f00;
+					background-color: #48ff00;
 				}
 				.third-line {
 					top: 14px;
-					background-color: #288f00;
+					background-color: #48ff00;
 				}
 				.change1 {
 					top: 8px;
@@ -73,7 +73,7 @@ body  {
 			}
 		}
 		.vm {
-			background: url("../img/logo-green.png");
+			/*background: url("../img/logo-green.png");*/
 			background-size: cover;
 			position: absolute;
 			bottom: 18%;
@@ -130,30 +130,30 @@ body  {
 				background-color: rgba(31, 31, 31, 0.8);
 				.name {
 					display: none;
-					font: 400 3rem 'Roboto Mono', monospace;
+					font: 400 2.5rem 'Roboto Mono', monospace;
 				}
 				.name-2 {
-					font: 400 3rem 'Roboto Mono', monospace;
+					font: 400 2.5rem 'Roboto Mono', monospace;
 				}
 
 				.last-name {
 					display: none;
-					font: 400 3rem 'Roboto Mono', monospace;
+					font: 400 2.5rem 'Roboto Mono', monospace;
 				}
 				.last-name-2 {
-					font: 400 3rem 'Roboto Mono', monospace;
+					font: 400 2.5rem 'Roboto Mono', monospace;
 				}
 
 				.web-developer {
 					display: none;
-					font: 400 1.8rem 'Roboto Mono', monospace;
+					font: 400 1.5rem 'Roboto Mono', monospace;
 				}
 				.web-developer-2 {
-					font: 400 1.8rem 'Roboto Mono', monospace;
+					font: 400 1.5rem 'Roboto Mono', monospace;
 				}
 				.flashing {
 					animation: flashing 1s infinite;
-					font: 400 3rem 'Roboto Mono', monospace;
+					font: 400 2.5rem 'Roboto Mono', monospace;
 				}
 				@keyframes flashing {
 					0% {opacity: 0%;}
@@ -319,15 +319,15 @@ body  {
 					transition: 1s;
 
 					img {
-						width: 10%;
+						width: 7%;
 						float: left;
 						margin: 0 0 0 10%;
 					}
 					p {
-						font: 200 0.8rem 'Roboto Mono', monospace;
+						font: 200 0.7rem 'Roboto Mono', monospace;
 						float: left;
 						color: #48ff00;
-						margin: 3% 0 0 10%;
+						margin: 1% 0 0 10%;
 					}
 				}
 				.tel, .link, .insta {

@@ -50,13 +50,13 @@ body {
           transition: 0.1s;
           position: relative; }
         body .container .heading .ham-but .first-line {
-          background-color: #288f00; }
+          background-color: #48ff00; }
         body .container .heading .ham-but .second-line {
           top: 7px;
-          background-color: #288f00; }
+          background-color: #48ff00; }
         body .container .heading .ham-but .third-line {
           top: 14px;
-          background-color: #288f00; }
+          background-color: #48ff00; }
         body .container .heading .ham-but .change1 {
           top: 8px;
           transform: rotate(45deg); }
@@ -64,7 +64,7 @@ body {
           transform: rotate(-45deg);
           top: 7px; }
     body .container .vm {
-      background: url("../img/logo-green.png");
+      /*background: url("../img/logo-green.png");*/
       background-size: cover;
       position: absolute;
       bottom: 18%;
@@ -114,22 +114,22 @@ body {
         background-color: rgba(31, 31, 31, 0.8); }
         body .container .content .home-page-content .name {
           display: none;
-          font: 400 3rem 'Roboto Mono', monospace; }
+          font: 400 2.5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .name-2 {
-          font: 400 3rem 'Roboto Mono', monospace; }
+          font: 400 2.5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .last-name {
           display: none;
-          font: 400 3rem 'Roboto Mono', monospace; }
+          font: 400 2.5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .last-name-2 {
-          font: 400 3rem 'Roboto Mono', monospace; }
+          font: 400 2.5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .web-developer {
           display: none;
-          font: 400 1.8rem 'Roboto Mono', monospace; }
+          font: 400 1.5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .web-developer-2 {
-          font: 400 1.8rem 'Roboto Mono', monospace; }
+          font: 400 1.5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .flashing {
           animation: flashing 1s infinite;
-          font: 400 3rem 'Roboto Mono', monospace; }
+          font: 400 2.5rem 'Roboto Mono', monospace; }
 @keyframes flashing {
   0% {
     opacity: 0%; }
@@ -263,14 +263,14 @@ body {
           height: 7%;
           transition: 1s; }
           body .container .content .contact-page .email img, body .container .content .contact-page .tel img, body .container .content .contact-page .link img, body .container .content .contact-page .insta img {
-            width: 10%;
+            width: 7%;
             float: left;
             margin: 0 0 0 10%; }
           body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
-            font: 200 0.8rem 'Roboto Mono', monospace;
+            font: 200 0.7rem 'Roboto Mono', monospace;
             float: left;
             color: #48ff00;
-            margin: 3% 0 0 10%; }
+            margin: 1% 0 0 10%; }
         body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
           margin-top: 3%; }
 
