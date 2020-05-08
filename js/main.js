@@ -148,7 +148,7 @@ for (var i = 0; i < navLine.length; i++) {
 		xhttp.open("GET", "html/" + this.id + ".html", true);
 		xhttp.send();
 
-		if (this.id == "About") {
+		if (this.id == "about") {
 
 			if (cliWid < 768) {
 				setTimeout('content.children[0].children[4].style.width = cliWid * 0.8 + "px";', 200);
@@ -188,7 +188,7 @@ for (var i = 0; i < navLine.length; i++) {
 			}
 		}
 
-		if (this.id == "Skills") {
+		if (this.id == "skills") {
 
 			if (cliWid < 768) {
 				setTimeout('content.children[0].children[4].style.height = cliWid * 1.2 + "px";', 200);
@@ -231,7 +231,7 @@ for (var i = 0; i < navLine.length; i++) {
 			}
 		}
 
-		if (this.id == "My work") {
+		if (this.id == "my work") {
 
 			setTimeout('content.children[0].children[0].style.opacity = 1;', 200);
 			
@@ -255,7 +255,7 @@ for (var i = 0; i < navLine.length; i++) {
 			}
 		}
 
-		if (this.id == "Contact") {
+		if (this.id == "contact") {
 
 			if (cliWid < 1025) {
 				setTimeout('content.children[0].children[0].style.opacity = 1;', 200);
@@ -280,51 +280,51 @@ for (var i = 0; i < navLine.length; i++) {
 		}
 
 		switch (this.id) {
-			case "Home":
+			case "home":
 				this.children[0].src = "icons/Homeon.png";
-				document.getElementById("About").children[0].src = "icons/About.png";
-				document.getElementById("Skills").children[0].src = "icons/Skills.png";
-				document.getElementById("My work").children[0].src = "icons/My work.png";
-				document.getElementById("Contact").children[0].src = "icons/Contact.png";
+				document.getElementById("about").children[0].src = "icons/About.png";
+				document.getElementById("skills").children[0].src = "icons/Skills.png";
+				document.getElementById("my work").children[0].src = "icons/My work.png";
+				document.getElementById("contact").children[0].src = "icons/Contact.png";
 			break;
-			case "About":
+			case "about":
 				this.children[0].src = "icons/Abouton.png";
-				document.getElementById("Home").children[0].src = "icons/Home.png";
-				document.getElementById("Skills").children[0].src = "icons/Skills.png";
-				document.getElementById("My work").children[0].src = "icons/My work.png";
-				document.getElementById("Contact").children[0].src = "icons/Contact.png";
+				document.getElementById("home").children[0].src = "icons/Home.png";
+				document.getElementById("skills").children[0].src = "icons/Skills.png";
+				document.getElementById("my work").children[0].src = "icons/My work.png";
+				document.getElementById("contact").children[0].src = "icons/Contact.png";
 
 			break;
-			case "Skills":
+			case "skills":
 				this.children[0].src = "icons/Skillson.png";
-				document.getElementById("Home").children[0].src = "icons/Home.png";
-				document.getElementById("About").children[0].src = "icons/About.png";
-				document.getElementById("My work").children[0].src = "icons/My work.png";
-				document.getElementById("Contact").children[0].src = "icons/Contact.png";
+				document.getElementById("home").children[0].src = "icons/Home.png";
+				document.getElementById("about").children[0].src = "icons/About.png";
+				document.getElementById("my work").children[0].src = "icons/My work.png";
+				document.getElementById("contact").children[0].src = "icons/Contact.png";
 
 			break;
-			case "My work":
+			case "my work":
 				this.children[0].src = "icons/My workon.png";
-				document.getElementById("Home").children[0].src = "icons/Home.png";
-				document.getElementById("About").children[0].src = "icons/About.png";
-				document.getElementById("Skills").children[0].src = "icons/Skills.png";
-				document.getElementById("Contact").children[0].src = "icons/Contact.png";
+				document.getElementById("home").children[0].src = "icons/Home.png";
+				document.getElementById("about").children[0].src = "icons/About.png";
+				document.getElementById("skills").children[0].src = "icons/Skills.png";
+				document.getElementById("contact").children[0].src = "icons/Contact.png";
 
 			break;
-			case "Contact":
+			case "contact":
 				this.children[0].src = "icons/Contacton.png";
-				document.getElementById("Home").children[0].src = "icons/Home.png";
-				document.getElementById("About").children[0].src = "icons/About.png";
-				document.getElementById("Skills").children[0].src = "icons/Skills.png";
-				document.getElementById("My work").children[0].src = "icons/My work.png";
+				document.getElementById("home").children[0].src = "icons/Home.png";
+				document.getElementById("about").children[0].src = "icons/About.png";
+				document.getElementById("skills").children[0].src = "icons/Skills.png";
+				document.getElementById("my work").children[0].src = "icons/My work.png";
 
 			break;
 			default:
-				document.getElementById("Home").children[0].src = "icons/Home.png";
-				document.getElementById("About").children[0].src = "icons/About.png";
-				document.getElementById("Skills").children[0].src = "icons/Skills.png";
-				document.getElementById("My work").children[0].src = "icons/My work.png";
-				document.getElementById("Contact").children[0].src = "icons/Contact.png";
+				document.getElementById("home").children[0].src = "icons/Home.png";
+				document.getElementById("about").children[0].src = "icons/About.png";
+				document.getElementById("skills").children[0].src = "icons/Skills.png";
+				document.getElementById("my work").children[0].src = "icons/My work.png";
+				document.getElementById("contact").children[0].src = "icons/Contact.png";
 				}
 		});
 }
