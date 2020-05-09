@@ -30,29 +30,16 @@ function navClose () {
 		secLin.style.display = "block";
 		thiLin.classList.remove("change2");
 
-		navBar.style.width = 0;
-		for (var i = 0; i < navLine.length; i++) {
-			navLine[i].children[0].style.transition = "0s";
-			navLine[i].children[0].style.opacity = 0;
-			navLine[i].children[0].style.display = "inline-block";
-		}
+		navBar.style.marginLeft = 100 + "%";
 }
 		
 function navOpen () {
+	hamBut.style.transition = "0.3s";
 	firLin.classList.add("change1");
 	secLin.style.display = "none";
 	thiLin.classList.add("change2");
 
-	navBar.style.width = 100 + "%";
-	for (var i = 0; i < navLine.length; i++) {
-
-		navLine[i].children[0].style.transition = "0.3s";
-		setTimeout('navLine[0].children[0].style.opacity = 1;', 300);
-		setTimeout('navLine[1].children[0].style.opacity = 1;', 300);
-		setTimeout('navLine[2].children[0].style.opacity = 1;', 300);
-		setTimeout('navLine[3].children[0].style.opacity = 1;', 300);
-		setTimeout('navLine[4].children[0].style.opacity = 1;', 300);
-	}
+	navBar.style.marginLeft = 0 + "%";
 }
 
 //hamburger button animation
@@ -60,6 +47,7 @@ hamBut.onclick = () => {
 
 	if (secLin.style.display == "none") {
 		navClose();
+
 	}	else	{
 		navBar.style.transition = "0.3s";
 		navOpen();
@@ -90,12 +78,6 @@ for (var i = 0; i < myName.length; i++) {
 setTimeout('firBrake.insertAdjacentHTML("afterend", "<br>");', 2300);
 
 for (var i = 0; i < lastName.length; i++) {
-	lastName[i].addEventListener("mouseover", function() {
-	        this.style.color = "#75c043";
-	});
-	lastName[i].addEventListener("mouseout", function() {
-	        this.style.color = "#fff";
-	});
 	setTimeout('lastName[0].style.display = "inline";', 3000);
 	setTimeout('lastName[1].style.display = "inline";', 3100);
 	setTimeout('lastName[2].style.display = "inline";', 3200);
@@ -111,12 +93,6 @@ for (var i = 0; i < lastName.length; i++) {
 setTimeout('secBrake.insertAdjacentHTML("afterend", "<br>");', 4600);
 
 for (var i = 0; i < webDeveloper.length; i++) {
-	webDeveloper[i].addEventListener("mouseover", function() {
-	        this.style.color = "#00ec00";
-	});
-	webDeveloper[i].addEventListener("mouseout", function() {
-	        this.style.color = "#fff";
-	});
 	setTimeout('webDeveloper[0].style.display = "inline";', 5100);
 	setTimeout('webDeveloper[1].style.display = "inline";', 5200);
 	setTimeout('webDeveloper[2].style.display = "inline";', 5300);
@@ -236,14 +212,14 @@ for (var i = 0; i < navLine.length; i++) {
 			setTimeout('content.children[0].children[0].style.opacity = 1;', 200);
 			
 			if (cliWid < 768) {
-				setTimeout('content.children[0].children[1].style.marginLeft = "5%";', 200);
-				setTimeout('content.children[0].children[2].style.marginLeft = "5%";', 400);
+				setTimeout('content.children[0].children[1].style.marginLeft = "30%";', 200);
+				setTimeout('content.children[0].children[2].style.marginLeft = "20%";', 400);
 
 				homePageContact.style.display = "none";
 			}
 
 			if (cliWid < 1025 && cliWid > 767) {
-				setTimeout('content.children[0].children[1].style.marginLeft = "20%";', 200);
+				setTimeout('content.children[0].children[1].style.marginLeft = "30%";', 200);
 				setTimeout('content.children[0].children[2].style.marginLeft = "20%";', 400);
 
 				homePageContact.style.display = "none";

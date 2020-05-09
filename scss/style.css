@@ -41,8 +41,7 @@ body {
         height: 15px;
         width: 27px;
         margin: 23.5px 15px 0 0;
-        float: right;
-        transition: 0.3s; }
+        float: right; }
         body .container .heading .ham-but .ham-line {
           width: 100%;
           height: 1px;
@@ -79,20 +78,17 @@ body {
   100% {
     opacity: 2%; } }
     body .container .nav-bar {
-      width: 0;
-      height: 7%;
+      width: 100%;
+      margin-left: 100%;
       background-color: #181818;
-      float: right;
       overflow: hidden; }
       body .container .nav-bar .nav-line {
         width: 19%;
         display: inline-block;
         text-align: center;
-        margin-top: 3%; }
+        padding: 3% 0; }
         body .container .nav-bar .nav-line img {
-          width: 30%;
-          opacity: 0;
-          /*display: none;*/ }
+          width: 30%; }
         body .container .nav-bar .nav-line p {
           display: none; }
     body .container .content {
@@ -139,7 +135,7 @@ body {
     opacity: 0%; } }
       body .container .content .page-title {
         font: 200 2rem 'Roboto Mono', monospace;
-        margin: 15% 0 0 5%;
+        margin: 5% 0 0 5%;
         color: #48ff00;
         opacity: 0;
         transition: 0.5s; }
@@ -148,16 +144,16 @@ body {
         background-color: rgba(31, 31, 31, 0.8); }
         body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
           width: 80%;
-          font: 200 0.9rem 'Roboto Mono', monospace;
+          font: 200 0.8rem 'Roboto Mono', monospace;
           /*text-shadow: -8px 5px 1px #000;*/ }
         body .container .content .about-page .about-first-paragraph {
-          margin: 7% 0 0 -80%;
+          margin: 4% 0 0 -80%;
           transition: 1s; }
         body .container .content .about-page .about-second-paragraph {
-          margin: 7% 0 0 100%;
+          margin: 4% 0 0 100%;
           transition: 1s; }
         body .container .content .about-page .about-third-paragraph {
-          margin: 7% 0 0 -80%;
+          margin: 4% 0 0 -80%;
           transition: 1s; }
         body .container .content .about-page .about-my-image {
           position: fixed;
@@ -238,14 +234,16 @@ body {
         position: relative;
         background-color: rgba(31, 31, 31, 0.8); }
         body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
-          width: 90%;
+          width: 100%;
           transition: 1s; }
-          body .container .content .my-work-page .blomm img, body .container .content .my-work-page .nice img {
-            width: 100%; }
         body .container .content .my-work-page .blomm {
-          margin: 10% 0 0 -100%; }
+          margin: 15% 0 0 -100%; }
+          body .container .content .my-work-page .blomm img {
+            width: 40%; }
         body .container .content .my-work-page .nice {
-          margin: 5% 0 0 105%; }
+          margin: 20% 0 0 105%; }
+          body .container .content .my-work-page .nice img {
+            width: 60%; }
       body .container .content .contact-page {
         width: 100%;
         height: 100%;
@@ -288,13 +286,10 @@ body {
       margin: 6% 25px 0 0; }
     body .container .vm {
       margin-left: 10%; }
-    body .container .nav-bar {
-      margin-top: -0.7%; }
-      body .container .nav-bar .nav-line {
-        width: 19.5%;
-        margin-top: 2%; }
-        body .container .nav-bar .nav-line img {
-          width: 25%; }
+    body .container .nav-bar .nav-line {
+      width: 19.5%; }
+      body .container .nav-bar .nav-line img {
+        width: 25%; }
     body .container .content {
       /*lasnding page content*/
       /*about page content*/
@@ -302,36 +297,43 @@ body {
       /*my work page content*/
       /*contact page content*/ }
       body .container .content .home-page-content .name {
-        font: 400 5rem 'Do Hyeon', sans-serif; }
+        font: 400 5rem 'Roboto Mono', monospace; }
       body .container .content .home-page-content .name-2 {
-        font: 400 5rem 'Do Hyeon', sans-serif; }
+        font: 400 5rem 'Roboto Mono', monospace; }
       body .container .content .home-page-content .last-name {
-        font: 400 5rem 'Do Hyeon', sans-serif; }
+        font: 400 5rem 'Roboto Mono', monospace; }
       body .container .content .home-page-content .last-name-2 {
-        font: 400 5rem 'Do Hyeon', sans-serif; }
+        font: 400 5rem 'Roboto Mono', monospace; }
       body .container .content .home-page-content .web-developer {
-        font: 400 5rem 'Do Hyeon', sans-serif; }
+        font: 400 4rem 'Roboto Mono', monospace; }
       body .container .content .home-page-content .web-developer-2 {
-        font: 400 5rem 'Do Hyeon', sans-serif; }
+        font: 400 4rem 'Roboto Mono', monospace; }
       body .container .content .home-page-content .flashing {
-        font: 400 5rem 'Do Hyeon', sans-serif; }
+        font: 400 5rem 'Roboto Mono', monospace; }
       body .container .content .page-title {
-        font: 200 3rem 'Open Sans', sans-serif;
-        margin: 12% 0 0 5%; }
+        font: 200 3rem 'Roboto Mono', monospace;
+        margin: 5% 0 0 5%; }
       body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
-        font: 200 1.5rem 'Open Sans', sans-serif; }
+        font: 200 1.5rem 'Roboto Mono', monospace; }
       body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
-        font: 200 1.5rem 'Open Sans', sans-serif; }
+        font: 200 1.5rem 'Roboto Mono', monospace; }
       body .container .content .skills-page .skills-icons-wrap {
         width: 100%; }
       body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
-        width: 60%; }
-        body .container .content .my-work-page .blomm img, body .container .content .my-work-page .nice img {
-          width: 100%; }
+        width: 100%;
+        transition: 1s; }
+      body .container .content .my-work-page .blomm {
+        margin: 10% 0 0 -100%; }
+        body .container .content .my-work-page .blomm img {
+          width: 40%; }
+      body .container .content .my-work-page .nice {
+        margin: 10% 0 0 105%; }
+        body .container .content .my-work-page .nice img {
+          width: 60%; }
       body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
-        font: 200 1.5rem 'Open Sans', sans-serif; }
+        font: 200 1.5rem 'Roboto Mono', monospace; }
       body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
-        font: 200 1.2rem 'Open Sans', sans-serif; } }
+        font: 200 1.2rem 'Roboto Mono', monospace; } }
 @media screen and (min-width: 1025px) {
   body .container {
     background: url("../img/codeBackground.png");
@@ -345,7 +347,8 @@ body {
       bottom: 5%; }
     body .container .heading {
       height: 10%;
-      width: 4%; }
+      width: 4%;
+      background-color: #181818; }
       body .container .heading .heading-logo {
         width: 90%;
         float: none;
@@ -360,6 +363,7 @@ body {
     body .container .nav-bar {
       width: 4%;
       height: 100%;
+      margin-left: 0;
       float: left;
       padding-top: 12%; }
       body .container .nav-bar .nav-line {
@@ -375,9 +379,8 @@ body {
           width: 100%;
           height: 3%;
           display: block;
-          margin-top: 30%;
           cursor: pointer;
-          font: 400 1rem 'Do Hyeon', sans-serif;
+          font: 400 0.9rem 'Roboto Mono', monospace;
           color: #48ff00;
           display: none; }
       body .container .nav-bar .nav-line:hover img {
@@ -395,29 +398,29 @@ body {
         left: 10%;
         cursor: pointer; }
         body .container .content .home-page-content .name {
-          font: 400 5rem 'Do Hyeon', sans-serif; }
+          font: 400 5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .name-2 {
-          font: 400 5rem 'Do Hyeon', sans-serif; }
+          font: 400 5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .last-name {
-          font: 400 5rem 'Do Hyeon', sans-serif; }
+          font: 400 5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .last-name-2 {
-          font: 400 5rem 'Do Hyeon', sans-serif; }
+          font: 400 5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .web-developer {
-          font: 400 5rem 'Do Hyeon', sans-serif; }
+          font: 400 5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .web-developer-2 {
-          font: 400 5rem 'Do Hyeon', sans-serif; }
+          font: 400 5rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .flashing {
-          font: 400 5rem 'Do Hyeon', sans-serif; }
+          font: 400 5rem 'Roboto Mono', monospace; }
       body .container .content .page-title {
-        font: 600 4rem 'Open Sans', sans-serif;
+        font: 600 4rem 'Roboto Mono', monospace;
         margin: 0 0 0 3%; }
       body .container .content .about-page {
         margin: 10% 0 0 7%;
         padding: 2% 0;
-        border-left: 1px solid #ED2052; }
+        border-left: 1px solid #48ff00; }
         body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
           width: 40%;
-          font: 200 1.2rem 'Open Sans', sans-serif; }
+          font: 200 1.2rem 'Roboto Mono', monospace; }
         body .container .content .about-page .about-first-paragraph {
           margin: 3% 0 0 105%; }
         body .container .content .about-page .about-second-paragraph {
@@ -432,10 +435,10 @@ body {
       body .container .content .skills-page {
         margin: 10% 0 0 7%;
         padding: 2% 0;
-        border-left: 1px solid #ED2052; }
+        border-left: 1px solid #48ff00; }
         body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
           width: 40%;
-          font: 200 1.2rem 'Open Sans', sans-serif;
+          font: 200 1.2rem 'Roboto Mono', monospace;
           margin: 3% 0 0 105%; }
         body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
           margin: 1.5% 0 0 105%; }
@@ -511,13 +514,13 @@ body {
       body .container .content .my-work-page {
         margin: 5% 0 0 7%;
         padding: 2% 0;
-        border-left: 1px solid #ED2052; }
+        border-left: 1px solid #48ff00; }
         body .container .content .my-work-page .blomm, body .container .content .my-work-page .nice {
           width: 30%;
           display: inline-block;
           opacity: 0; }
         body .container .content .my-work-page .blomm {
-          margin: 3% 0 0 12.5%; }
+          margin: 3% 0 0 20%; }
         body .container .content .my-work-page .nice {
           margin: 3% 0 0 5%; }
       body .container .content .contact-page {
@@ -525,21 +528,21 @@ body {
         padding: 2% 0; }
         body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
           width: 40%;
-          font: 200 1.2rem 'Open Sans', sans-serif;
+          font: 200 1.2rem 'Roboto Mono', monospace;
           margin: 3% 0 0 105%; }
         body .container .content .contact-page .email, body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
           width: 30%;
           margin: -15% 0 0 100%;
           height: 10%; }
           body .container .content .contact-page .email img, body .container .content .contact-page .tel img, body .container .content .contact-page .link img, body .container .content .contact-page .insta img {
-            width: 15%;
+            width: 10%;
             float: left;
             margin: 0 0 0 0; }
           body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
-            font: 200 1rem 'Open Sans', sans-serif;
+            font: 200 1rem 'Roboto Mono', monospace;
             float: left;
             color: #fff;
-            margin: 6% 0 0 10%; }
+            margin: 3% 0 0 10%; }
         body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
           margin-top: 2%; } }
 

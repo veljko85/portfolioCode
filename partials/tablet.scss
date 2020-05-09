@@ -20,10 +20,8 @@
 
 	/*navigatin bar*/
 			.nav-bar {
-				margin-top: -0.7%;
 				.nav-line {
 					width: 19.5%;
-					margin-top: 2%;
 					img {
 						width: 25%;
 					}
@@ -37,45 +35,45 @@
 	/*lasnding page content*/
 				.home-page-content {
 					.name {
-						font: 400 5rem 'Do Hyeon', sans-serif;
+						font: 400 5rem 'Roboto Mono', monospace;
 					}
 					.name-2 {
-						font: 400 5rem 'Do Hyeon', sans-serif;
+						font: 400 5rem 'Roboto Mono', monospace;
 					}
 
 					.last-name {
-						font: 400 5rem 'Do Hyeon', sans-serif;
+						font: 400 5rem 'Roboto Mono', monospace;
 					}
 					.last-name-2 {
-						font: 400 5rem 'Do Hyeon', sans-serif;
+						font: 400 5rem 'Roboto Mono', monospace;
 					}
 
 					.web-developer {
-						font: 400 5rem 'Do Hyeon', sans-serif;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 					.web-developer-2 {
-						font: 400 5rem 'Do Hyeon', sans-serif;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 					.flashing {
-						font: 400 5rem 'Do Hyeon', sans-serif;
+						font: 400 5rem 'Roboto Mono', monospace;
 					}
 				}
 
 				.page-title {
-					font: 200 3rem 'Open Sans', sans-serif;
-					margin: 12% 0 0 5%;
+					font: 200 3rem 'Roboto Mono', monospace;
+					margin: 5% 0 0 5%;
 				}
 
 				/*about page content*/
 				.about-page {
 					.about-first-paragraph, .about-second-paragraph, .about-third-paragraph {
-						font: 200 1.5rem 'Open Sans', sans-serif;
+						font: 200 1.5rem 'Roboto Mono', monospace;
 					}
 				}
 				/*skills page content*/
 				.skills-page {
 					.skills-first-paragraph, .skills-second-paragraph, .skills-third-paragraph {
-						font: 200 1.5rem 'Open Sans', sans-serif;
+						font: 200 1.5rem 'Roboto Mono', monospace;
 					}
 					.skills-icons-wrap {
 						width: 100%;
@@ -84,20 +82,30 @@
 				/*my work page content*/
 				.my-work-page {
 					.blomm, .nice, {
-						width: 60%;
+						width: 100%;
+						transition: 1s;
+					}
+					.blomm {
+						margin: 10% 0 0 -100%;
 						img {
-							width: 100%;
-							}
+							width: 40%;
+						}
+					}
+					.nice {
+						margin: 10% 0 0 105%;
+						img {
+							width: 60%;
+						}
 					}
 				}
 				/*contact page content*/
 				.contact-page {
 					.contact-first-paragraph, .contact-second-paragraph {
-						font: 200 1.5rem 'Open Sans', sans-serif;
+						font: 200 1.5rem 'Roboto Mono', monospace;
 					}
 					.email, .tel, .link, .insta {
 						p {
-							font: 200 1.2rem 'Open Sans', sans-serif;
+							font: 200 1.2rem 'Roboto Mono', monospace;
 
 						}
 					}
