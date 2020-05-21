@@ -1,4 +1,4 @@
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1440px)   and (max-width: 1799px){
 	body  {
 		
 		.container {
@@ -54,7 +54,7 @@
 						height: 3%;
 						display: block;
 						cursor: pointer;
-						font: 400 0.9rem 'Roboto Mono', monospace;
+						font: 400 0.7rem 'Roboto Mono', monospace;
 						color: #48ff00;
 						display: none;
 					}
@@ -83,32 +83,32 @@
 					left: 10%;
 					cursor: pointer;
 					.name {
-						font: 400 5rem 'Roboto Mono', monospace;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 					.name-2 {
-						font: 400 5rem 'Roboto Mono', monospace;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 
 					.last-name {
-						font: 400 5rem 'Roboto Mono', monospace;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 					.last-name-2 {
-						font: 400 5rem 'Roboto Mono', monospace;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 
 					.web-developer {
-						font: 400 5rem 'Roboto Mono', monospace;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 					.web-developer-2 {
-						font: 400 5rem 'Roboto Mono', monospace;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 					.flashing {
-						font: 400 5rem 'Roboto Mono', monospace;
+						font: 400 4rem 'Roboto Mono', monospace;
 					}
 				}
 
 				.page-title {
-					font: 600 4rem 'Roboto Mono', monospace;
+					font: 600 3rem 'Roboto Mono', monospace;
 					margin: 0 0 0 3%;
 				}
 
@@ -119,7 +119,7 @@
 					border-left: 1px solid #48ff00;
 					.about-first-paragraph, .about-second-paragraph, .about-third-paragraph {
 						width: 40%;
-						font: 200 1.2rem 'Roboto Mono', monospace;
+						font: 200 1rem 'Roboto Mono', monospace;
 					}
 					.about-first-paragraph {
 						margin: 3% 0 0 105%;
@@ -143,7 +143,7 @@
 					border-left: 1px solid #48ff00;
 					.skills-first-paragraph, .skills-second-paragraph, .skills-third-paragraph {
 						width: 40%;
-						font: 200 1.2rem 'Roboto Mono', monospace;
+						font: 200 1rem 'Roboto Mono', monospace;
 						margin: 3% 0 0 105%;
 					}
 					.skills-second-paragraph, .skills-third-paragraph {
@@ -152,7 +152,7 @@
 					.skills-icons-wrap {
 						width: 30%;
 						float: right;
-						margin: -25% 0 0 105%;
+						margin: -22% 0 0 105%;
 						position: fixed;
 					}
 					.skills-icons-wrap:hover {
@@ -262,7 +262,7 @@
 					padding: 2% 0;
 					.contact-first-paragraph, .contact-second-paragraph {
 						width: 40%;
-						font: 200 1.2rem 'Roboto Mono', monospace;
+						font: 200 1rem 'Roboto Mono', monospace;
 						margin: 3% 0 0 105%;
 					}
 					.email, .tel, .link, .insta {
@@ -275,7 +275,7 @@
 							margin: 0 0 0 0;
 						}
 						p {
-							font: 200 1rem 'Roboto Mono', monospace;
+							font: 200 0.9rem 'Roboto Mono', monospace;
 							float: left;
 							color: #fff;
 							margin: 3% 0 0 10%;

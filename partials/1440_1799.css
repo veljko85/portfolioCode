@@ -1,4 +1,4 @@
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1440px) and (max-width: 1799px) {
   body .container {
     background: url("../img/codeBackground.png");
     background-size: cover;
@@ -44,7 +44,7 @@
           height: 3%;
           display: block;
           cursor: pointer;
-          font: 400 0.9rem 'Roboto Mono', monospace;
+          font: 400 0.7rem 'Roboto Mono', monospace;
           color: #48ff00;
           display: none; }
       body .container .nav-bar .nav-line:hover img {
@@ -62,21 +62,21 @@
         left: 10%;
         cursor: pointer; }
         body .container .content .home-page-content .name {
-          font: 400 5rem 'Roboto Mono', monospace; }
+          font: 400 4rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .name-2 {
-          font: 400 5rem 'Roboto Mono', monospace; }
+          font: 400 4rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .last-name {
-          font: 400 5rem 'Roboto Mono', monospace; }
+          font: 400 4rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .last-name-2 {
-          font: 400 5rem 'Roboto Mono', monospace; }
+          font: 400 4rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .web-developer {
-          font: 400 5rem 'Roboto Mono', monospace; }
+          font: 400 4rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .web-developer-2 {
-          font: 400 5rem 'Roboto Mono', monospace; }
+          font: 400 4rem 'Roboto Mono', monospace; }
         body .container .content .home-page-content .flashing {
-          font: 400 5rem 'Roboto Mono', monospace; }
+          font: 400 4rem 'Roboto Mono', monospace; }
       body .container .content .page-title {
-        font: 600 4rem 'Roboto Mono', monospace;
+        font: 600 3rem 'Roboto Mono', monospace;
         margin: 0 0 0 3%; }
       body .container .content .about-page {
         margin: 10% 0 0 7%;
@@ -84,7 +84,7 @@
         border-left: 1px solid #48ff00; }
         body .container .content .about-page .about-first-paragraph, body .container .content .about-page .about-second-paragraph, body .container .content .about-page .about-third-paragraph {
           width: 40%;
-          font: 200 1.2rem 'Roboto Mono', monospace; }
+          font: 200 1rem 'Roboto Mono', monospace; }
         body .container .content .about-page .about-first-paragraph {
           margin: 3% 0 0 105%; }
         body .container .content .about-page .about-second-paragraph {
@@ -102,14 +102,14 @@
         border-left: 1px solid #48ff00; }
         body .container .content .skills-page .skills-first-paragraph, body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
           width: 40%;
-          font: 200 1.2rem 'Roboto Mono', monospace;
+          font: 200 1rem 'Roboto Mono', monospace;
           margin: 3% 0 0 105%; }
         body .container .content .skills-page .skills-second-paragraph, body .container .content .skills-page .skills-third-paragraph {
           margin: 1.5% 0 0 105%; }
         body .container .content .skills-page .skills-icons-wrap {
           width: 30%;
           float: right;
-          margin: -25% 0 0 105%;
+          margin: -22% 0 0 105%;
           position: fixed; }
         body .container .content .skills-page .skills-icons-wrap:hover .html-icon {
           background: url("../icons/html5.png") !important;
@@ -192,7 +192,7 @@
         padding: 2% 0; }
         body .container .content .contact-page .contact-first-paragraph, body .container .content .contact-page .contact-second-paragraph {
           width: 40%;
-          font: 200 1.2rem 'Roboto Mono', monospace;
+          font: 200 1rem 'Roboto Mono', monospace;
           margin: 3% 0 0 105%; }
         body .container .content .contact-page .email, body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
           width: 30%;
@@ -203,11 +203,11 @@
             float: left;
             margin: 0 0 0 0; }
           body .container .content .contact-page .email p, body .container .content .contact-page .tel p, body .container .content .contact-page .link p, body .container .content .contact-page .insta p {
-            font: 200 1rem 'Roboto Mono', monospace;
+            font: 200 0.9rem 'Roboto Mono', monospace;
             float: left;
             color: #fff;
             margin: 3% 0 0 10%; }
         body .container .content .contact-page .tel, body .container .content .contact-page .link, body .container .content .contact-page .insta {
           margin-top: 2%; } }
 
-/*# sourceMappingURL=desktop.css.map */
+/*# sourceMappingURL=1440_1799.css.map */
